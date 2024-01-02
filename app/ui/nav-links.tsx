@@ -21,7 +21,7 @@ const NavLinks = () => {
 
     // const pathname = usePathname();
     return (
-        <div className='flex flex-col p-3 min-h-[90vh] z-40'>
+        <div className='flex flex-col p-3 min-h-[100vh]'>
             <div className='flex-1'>
                 {
                     links.map((link) => {

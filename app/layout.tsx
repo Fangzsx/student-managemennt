@@ -21,7 +21,7 @@ export default function RootLayout({
       <body>
         <div className='relative'>
           <MainNav />
-          <div className='absolute'>
+          <div className='absolute z-50'>
             <SideNav />
 
           </div>

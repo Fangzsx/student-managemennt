@@ -14,7 +14,7 @@ const page = () => {
 
   return (
     <div className='flex flex-col items-end p-4'>
-      <div className='grid grid-cols-3 gap-4 w-4/5'>
+      <div className='grid grid-cols-1 w-4/6 md:grid-cols-4 md:w-4/6 gap-4 sm:w-3/5 sm:grid-cols-2 lg:w-4/5 z-10'>
         {
           data.map(d => {
             return (

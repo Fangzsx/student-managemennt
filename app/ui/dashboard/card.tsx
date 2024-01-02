@@ -24,7 +24,7 @@ const Card = ({ title, value, type }: { title: string; value: number; type: Data
         <div className='flex flex-col mb-4 rounded-md border border-gray-300 items-center p-4'>
             <h1 className='text-3xl mb-6 font-bold text-grey900'>{value}</h1>
             <Icon className='w-6 text-gray-900' />
-            <p className='text-gray-700'>{title}</p>
+            <p className='text-gray-700 text-center mt-2'>{title}</p>
 
         </div>
     )
